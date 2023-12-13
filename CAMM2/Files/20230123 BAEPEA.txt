@@ -1,0 +1,1858 @@
+
+
+
+********************************************************************************
+********************************************************************************
+**                                                                            **
+** REPORT ID              = 1                                                 **
+** REPORT                 = MAINFORE                                          **
+** DESCRIPTION            = PEA Vixen                                         **
+** DATABASE               = trn_c2_01                                         **
+**                                                                            **
+** CREATED DATE/USER      = 12/01/23 21:13 bae24167                           **
+** UPDATED DATE/USER      = 12/01/23 21:13 bae24167                           **
+** SUBMITTED DATE/USER    = 12/01/23 21:16 bae24167                           **
+** STARTED DATE           = 22/01/23 13:18                                    **
+** COMPLETED DATE         = 22/01/23 13:20                                    **
+** ELAPSED TIME(HH:MM:SS) = 00:01:15                                          **
+**                                                                            **
+** EXIT STATUS            = SUCCESSFUL                                        **
+**                                                                            **
+** APPROX PAGES PRINTED   = 31                                                **
+**                                                                            **
+********************************************************************************
+********************************************************************************
+                                 |*******|
+                                 |*******|
+                                 |*******|
+                                 |*******|
+                                 |*******|
+                              \--+***|***+--/
+                               \\\\\\|//////
+                                \\\\\|/////
+                                 \\\\|////
+                                  \\\|///
+                                   \\|//
+                                    \|/
+                                     "
+
+PLEASE DO NOT DETACH THESE BANNER PAGES
+    QUESTION                                                     ANSWER
+
+
+
+
+
+====================================================================================================================================
+Q01 Maintenance Forecast                                        :Y                                                           
+Q02 Manpower Forecast                                           :N                                                           
+Q03 Spares Forecast                                             :N                                                           
+Q06 Security Classification:                                    :OFFS                                                        
+Q19 Single, Double, Line Seperator:                             :S                                                           
+Q21 Selection or Range:                                         :S                                                           
+Q22 Venue:                                                      :BAEPEA                                                      
+Q24 Selection or Range:                                         :S                                                           
+Q25 Location:                                                   :                                                            
+Q27 Selection or Range:                                         :S                                                           
+Q28 Maintenance Activity:                                       :                                                            
+Q30 Selection or Range:                                         :S                                                           
+Q31 Maintenance Type:                                           :                                                            
+Q33 Selection or Range:                                         :S                                                           
+Q34 Maintenance Level:                                          :                                                            
+Q36 Selection or Range:                                         :S                                                           
+Q37 LCN:                                                        :                                                            
+Q43 Selection or Range:                                         :S                                                           
+Q44 Serial/Tail Number:                                         :                                                            
+Q46 Selection or Range:                                         :S                                                           
+Q47 Part Number:                                                :HAWK 127                        ~K0610                      
+Q48 Second Part Number:                                         :                                                            
+Q50 Selection or Range:                                         :S                                                           
+Q51 Trade/Skill/Stream Code:                                    :                                                            
+Q53 Selection or Range:                                         :S                                                           
+Q54 NSN:                                                        :                                                            
+Q64 Forecast Code                                               :LIF 90 DAYS                                                 
+Q65 Associated Lives                                            :Y                                                           
+Q66 Associated Activities                                       :Y                                                           
+Q67 Subassets                                                   :Y                                                           
+Q68 Coincident Activities                                       :Y                                                           
+Q69 Include Manual Activities                                   :N                                                           
+Q70 Show Jobs in Progress                                       :Y                                                           
+Q71 Maint Coincident with OPSERVS                               :Y                                                           
+                                                         OFFICIAL:Sensitive
+RUN ID: MAINFORE                                                CAMM2                                                     PAGE 00001
+RUN BY: bae24167                                   MAINTENANCE FORECAST & PLANNING                                           22JAN23
+PROGRM: MAINFORE                                                                                                            13:18:56
+
+
+ VENUE         : BAEPEA                                                        PART NUMBER  : HAWK 127                        ~K0610
+ FORECAST CODE : LIF 90 DAYS  LIF 90 Day Forecast                              SERIAL NUMBER: A27-10
+ PERIOD TO     : 22APR23                                                       EIAC,LCN,ALC : A27     A                   00
+ LIFE SINCE NEW:    LIFE        LIFE TYPE        INTERVAL                      ENG NAME     : HAWK 127
+                  4094.4        AFHR                100.0                      LOCN, SUBLOCN: A27-10
+                   574.0        APUHR                25.0
+                  5531.0        APUST               100.0
+                  4094.4        ENHR                100.0
+                  4608.0        ENST                 90.0
+                  3584.0        FLT                  90.0
+                  6680.0        LDG                 180.0
+                  4609.0        START                90.0
+ 
+TAIL/SERIAL NO.        PART                                    DEVIATION ORDER                   STD              EXPIRED
+LCN,ALC                POSITION NAME       WAC                 TITLE
+                                           LIFE SINCE NEW      EXPIRY CONDITIONS
+=====================  ======================================= ===================================================================
+-- DEVIATIONS --------------------------------------------------------------------------------------------------------------------
+A27-10                 HAWK 127                        ~K0610  DEV-HAWK A27-1334                  Y                  N
+A                  00  HAWK 127            0000                REPEAT INSPECTION OF CRACKED FRAME 27 LANDINGS
+                                             4094.4   AFHR
+                                                               *** NO EXPIRY CONDITIONS ***
+ 
+                                                               DEV-HAWK A27-1639                  Y                  N
+                                                               STRAIN GAUGE 21 - ISOLATION AND REMOVAL FROM USAGE AIRCRAFT
+ 
+                                                               *** NO EXPIRY CONDITIONS ***
+ 
+HDH-41H-4230766        KB01RL2090-018                  ~K0610  DEV-HAWK A27-1378                  Y                  N
+A0W                00  TAILPLANE           3000                CORROSION ON TAILPLANE CENTRE SPAR ASSEMBLIES
+                                             4094.4   AFHR
+                                                               *** NO EXPIRY CONDITIONS ***
+ 
+                                                               DEV-HAWK A27-1457                  Y                  N
+                                                               TAILPLANE - LH RIB 1 - INTERNAL INSPECTION
+ 
+                                                               *** NO EXPIRY CONDITIONS ***
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+                                                         OFFICIAL:Sensitive                                                         OFFICIAL:Sensitive
+RUN ID: MAINFORE                                                CAMM2                                                     PAGE 00002
+RUN BY: bae24167                                   MAINTENANCE FORECAST & PLANNING                                           22JAN23
+PROGRM: MAINFORE                                                                                                            13:18:56
+
+
+TAIL/SERIAL NO.        PART                                    MAINT ACTIVITY        DATE DUE  LIFE TYPE INT REM        TSS CODES
+LCN,ALC                POSITION NAME       WAC                 TYPE LVL STD REC CLM  PREV DUE  INTERVAL
+                                           LIFE SINCE NEW      INIT TYPE, INSTANCE             INIT LCN, ALC
+                                                               ADMIN  CAPABILITY CODE
+=====================  ======================================= =======================================================  ==========
+-- OVERDUE MAINTENANCE -----------------------------------------------------------------------------------------------------------
+A27-10                 HAWK 127                        ~K0610  S37                   06JAN2023 ELPDY        16.0-       AV
+A                  00  HAWK 127            0000                SM        Y   R   Y                 30.0
+                                             4094.4   AFHR
+ 
+                                                               STI-HAWK A27-0493B              AFHR          0.0        AV
+                                                               STI       Y   R   N                  0.0
+                                                               REM                             AZK                00
+ 
+-- FORECAST ACTIVITIES -----------------------------------------------------------------------------------------------------------
+A27-10                 HAWK 127                        ~K0610  R10                             AFHR         15.6        NONE
+A                  00  HAWK 127            0000                SM        Y   R   Y                200.0
+                                             4094.4   AFHR
+ 
+                                                               R10                   20MAR2023 ELPYR        57.0        NONE
+                                                               SM        Y   R   Y                  1.0
+ 
+ 
+                                                               R30                             AFHR        561.0        NONE
+                                                               SM   DM   Y   R   N                800.0
+ 
+ 
+                                                               R30                   15MAR2025 ELPYR       783.0        NONE
+                                                               SM   DM   Y   R   N                  4.0
+ 
+ 
+                                                               R40                             AFHR        561.0        AE
+                                                               SM        N   I+  N                800.0                 AN
+                                                               CMPL       R30                                           AR
+                                                                                                                        AV,ND
+                                                               R40                   15MAR2025 ELPYR       783.0        AE
+                                                               SM        N   I+  N                  4.0                 AN
+                                                               CMPL       R30                                           AR
+                                                                                                                        AV,ND
+                                                               S1                              XCESSG        1.0        NONE
+                                                               SM        Y   R   N                  1.0
+ 
+ 
+                                                               S13                             ENOTMP        1.0        AE
+                                                               SM        Y   R   N                  1.0
+ 
+ 
+                                                               S2                              ISOOPS        1.0        NONE
+                                                               SM        Y   R   N                  1.0
+ 
+  
+                                                         OFFICIAL:Sensitive                                                         OFFICIAL:Sensitive
+RUN ID: MAINFORE                                                CAMM2                                                     PAGE 00003
+RUN BY: bae24167                                   MAINTENANCE FORECAST & PLANNING                                           22JAN23
+PROGRM: MAINFORE                                                                                                            13:18:56
+
+
+TAIL/SERIAL NO.        PART                                    MAINT ACTIVITY        DATE DUE  LIFE TYPE INT REM        TSS CODES
+LCN,ALC                POSITION NAME       WAC                 TYPE LVL STD REC CLM  PREV DUE  INTERVAL
+                                           LIFE SINCE NEW      INIT TYPE, INSTANCE             INIT LCN, ALC
+                                                               ADMIN  CAPABILITY CODE
+=====================  ======================================= =======================================================  ==========
+A27-10                 HAWK 127                        ~K0610  S3                              OSPLDG        1.0        NONE
+A                  00  HAWK 127            0000                SM        Y   R   N                  1.0
+                                             4094.4   AFHR
+ 
+                                                               S4                              LTSTRK        1.0        NONE
+                                                               SM        Y   R   N                  1.0
+ 
+ 
+                                                               S5                              HEVLDG        1.0        NONE
+                                                               SM        Y   R   N                  1.0
+ 
+ 
+                                                               S56                             BEFOPS        1.0        AV
+                                                               SM        Y   R   N                  1.0
+ 
+ 
+                                                               S57                             AFHR       2775.5        AE
+                                                               SM        Y   R   N               3200.0
+ 
+ 
+                                                               S57                   12OCT2035 ELPYR      4646.0        AE
+                                                               SM        Y   R   N                 16.0
+ 
+ 
+                                                               S6                              FLPOSP        1.0        NONE
+                                                               SM        Y   R   N                  1.0
+ 
+ 
+                                                               S62A                            AFHR        796.2        AE
+                                                               SM   DM   Y   R   N               1000.0                 AV
+ 
+ 
+                                                               S62B                            AFHR        796.2        AE
+                                                               SM   DM   Y   R   N               1000.0                 AV
+ 
+ 
+                                                               S65                   11APR2023 ELPYR        79.0        AN
+                                                               SM        Y   R   N                  1.0
+ 
+ 
+                                                               TA                              AFHR       5905.6        AE
+                                                               SM        Y   N   N              10000.0
+ 
+ 
+
+ 
+                                                         OFFICIAL:Sensitive                                                         OFFICIAL:Sensitive
+RUN ID: MAINFORE                                                CAMM2                                                     PAGE 00004
+RUN BY: bae24167                                   MAINTENANCE FORECAST & PLANNING                                           22JAN23
+PROGRM: MAINFORE                                                                                                            13:18:56
+
+
+TAIL/SERIAL NO.        PART                                    MAINT ACTIVITY        DATE DUE  LIFE TYPE INT REM        TSS CODES
+LCN,ALC                POSITION NAME       WAC                 TYPE LVL STD REC CLM  PREV DUE  INTERVAL
+                                           LIFE SINCE NEW      INIT TYPE, INSTANCE             INIT LCN, ALC
+                                                               ADMIN  CAPABILITY CODE
+=====================  ======================================= =======================================================  ==========
+100                    731300M02                       ~U3805  TA                              AFHR       2419.6        AE
+A1GAG              00  ACT RUDDER TRIM     3700                SM        Y   N   N               6000.0
+                                             3580.4   AFHR
+ 
+TV257                  KB290K0084-020                  ~K0610  BS                              FIRING        1.0        AEFTWSP
+A1W                00  VLV EXPL START FLAP 2610                SM        Y   R   N                  1.0
+                                             3298.1   AFHR
+ 
+                                                               TA                              FIRING       43.0        AEFTWSP
+                                                               SM        Y   N   N                 50.0
+ 
+ 
+WF2100380              PAF205-002                      ~U1585  TA                    23JUL2028 DOMDY      2009.0        AEFTWSP
+A1WAG              00  PILLAR FRANGIBLE    2610                SM        N   N   N               2548.0
+                                              203.8   AFHR
+ 
+                                                               TA                              FIRING        1.0        AEFTWSP
+                                                               SM        N   N   N                  1.0
+ 
+ 
+                                                               TA                    31AUG2025 INSYR       952.0        AEFTWSP
+                                                               SM        N   N   N                  4.0
+ 
+ 
+H1065                  10141                           ~K0100  TA                              AFHR       1905.6        AV
+A20                00  GAUGE ACCUM EMERG   2630                SM        Y   N   N               6000.0
+                                             4094.4   AFHR
+ 
+H967                   10141                           ~K0100  TA                              AFHR       2470.8        AV
+A24                00  GAUGE PRESS ACCUM 1 670A                SM        Y   N   N               6000.0
+                                             3529.2   AFHR
+ 
+H1030                  10141                           ~K0100  TA                              AFHR       2830.9        AV
+A2Q                00  GAUGE FLAP EMER NIT 570F                SM        Y   N   N               6000.0
+                                             3169.1   AFHR
+ 
+TS281                  KB290K0084-020                  ~K0610  BS                              FIRING        1.0        AEFTWSP
+A3E                00  VLV EXPL START U/C  1150                SM        Y   R   N                  1.0
+                                             3643.7   AFHR
+ 
+                                                               TA                              FIRING       44.0        AEFTWSP
+                                                               SM        Y   N   N                 50.0
+ 
+ 
+
+ 
+                                                         OFFICIAL:Sensitive                                                         OFFICIAL:Sensitive
+RUN ID: MAINFORE                                                CAMM2                                                     PAGE 00005
+RUN BY: bae24167                                   MAINTENANCE FORECAST & PLANNING                                           22JAN23
+PROGRM: MAINFORE                                                                                                            13:18:56
+
+
+TAIL/SERIAL NO.        PART                                    MAINT ACTIVITY        DATE DUE  LIFE TYPE INT REM        TSS CODES
+LCN,ALC                POSITION NAME       WAC                 TYPE LVL STD REC CLM  PREV DUE  INTERVAL
+                                           LIFE SINCE NEW      INIT TYPE, INSTANCE             INIT LCN, ALC
+                                                               ADMIN  CAPABILITY CODE
+=====================  ======================================= =======================================================  ==========
+WF2100406              PAF205-002                      ~U1585  TA                    23JUL2028 DOMDY      2009.0        AEFTWSP
+A3EAG              00  PILLAR FRANGIBLE    1150                SM        N   N   N               2548.0
+                                              203.8   AFHR
+ 
+                                                               TA                              FIRING        1.0        AEFTWSP
+                                                               SM        N   N   N                  1.0
+ 
+ 
+                                                               TA                    17NOV2025 INSYR      1030.0        AEFTWSP
+                                                               SM        N   N   N                  4.0
+ 
+ 
+H984                   10141                           ~K0100  TA                              AFHR       2742.9        AV
+A52                00  GAUGE EMERG U/C NIT 570C                SM        Y   N   N               6000.0
+                                             3257.1   AFHR
+ 
+FPT355700              KB280K0011-008                  ~K0610  TA                    23JUL2032 ELPYR      3470.0        AE
+ALS                00  TANK FUSELAGE BAG   2700                SM        Y   N   N                 34.0
+                                             1283.6   AFHR
+ 
+854                    TP30214                         ~U1608  TA                              AFHR       6105.6        AV
+AMY                00  SW FUEL TRANSFER    2610                SM        Y   N   N              10200.0
+                                             4094.4   AFHR
+ 
+783                    TP30215                         ~U1608  TA                              AFHR       8648.1        AV
+ANG                00  SW FUEL PRESSURE    2700                SM        Y   N   N              10200.0
+                                             1551.9   AFHR
+ 
+4028                   8ES002-769-00                   ~D8095  TA                              AFHR       1905.6        AV
+ARS                00  ANTI COL LT UNIT    4110                SM        Y   N   N               6000.0
+                                             4094.4   AFHR
+ 
+127                    6120-3K                         ~K0233  TA                              AFHR       8102.9        AV
+AXI                00  PILOT DISPL CAMERA  2200                SM        Y   N   N              12000.0
+                                             3897.1   AFHR
+ 
+-- COINCIDENT MAINTENANCE ACTIVITIES ---------------------------------------------------------------------------------------------
+A27-10                 HAWK 127                        ~K0610  DEVI-HAWK A27-1334A                                      AN
+A                  00  HAWK 127            0000                DVI       Y   R   N
+                                             4094.4   AFHR     STRT       R40
+ 
+                                                               DEVI-HAWK A27-1334A                                      AN
+                                                               DVI       Y   R   N
+                                                               STRT       R50
+ 
+ 
+                                                         OFFICIAL:Sensitive                                                         OFFICIAL:Sensitive
+RUN ID: MAINFORE                                                CAMM2                                                     PAGE 00006
+RUN BY: bae24167                                   MAINTENANCE FORECAST & PLANNING                                           22JAN23
+PROGRM: MAINFORE                                                                                                            13:18:56
+
+
+TAIL/SERIAL NO.        PART                                    MAINT ACTIVITY        DATE DUE  LIFE TYPE INT REM        TSS CODES
+LCN,ALC                POSITION NAME       WAC                 TYPE LVL STD REC CLM  PREV DUE  INTERVAL
+                                           LIFE SINCE NEW      INIT TYPE, INSTANCE             INIT LCN, ALC
+                                                               ADMIN  CAPABILITY CODE
+=====================  ======================================= =======================================================  ==========
+A27-10                 HAWK 127                        ~K0610  DEVI-HAWK A27-1639A                                      AN
+A                  00  HAWK 127            0000                DVI       Y   R   N
+                                             4094.4   AFHR     STRT       R50
+ 
+                                                               R50                             AFHR       1600.0        NONE
+                                                               SM        N   I+  N               1600.0
+                                                               CMPL       R40
+ 
+                                                               R50                             ELPYR                    NONE
+                                                               SM        N   I+  N                  8.0
+                                                               CMPL       R40
+ 
+                                                               RM8                                                      NONE
+                                                               SM        Y   R   N
+                                                               STRT       R40                  A                  00
+ 
+                                                               RM8                                                      NONE
+                                                               SM        Y   R   N
+                                                               STRT       R50                  A                  00
+ 
+                                                               RM9                                                      NONE
+                                                               SM        Y   R   N
+                                                               STRT       R50                  A                  00
+ 
+                                                               RM9                                                      NONE
+                                                               SM        Y   R   N
+                                                               STRT       R40                  A                  00
+ 
+                                                               S17                                                      NONE
+                                                               SM        Y   R   N
+                                                               REM                             A0MAY              00
+ 
+                                                               S17                                                      NONE
+                                                               SM        Y   R   N
+                                                               REM                             A0MAX              00
+ 
+                                                               S34                                                      NONE
+                                                               SM        Y   R   N
+                                                               REM                             AKF                01
+ 
+                                                               S34                                                      NONE
+                                                               SM        Y   R   N
+                                                               REM                             AKF                00
+ 
+
+ 
+                                                         OFFICIAL:Sensitive                                                         OFFICIAL:Sensitive
+RUN ID: MAINFORE                                                CAMM2                                                     PAGE 00007
+RUN BY: bae24167                                   MAINTENANCE FORECAST & PLANNING                                           22JAN23
+PROGRM: MAINFORE                                                                                                            13:18:56
+
+
+TAIL/SERIAL NO.        PART                                    MAINT ACTIVITY        DATE DUE  LIFE TYPE INT REM        TSS CODES
+LCN,ALC                POSITION NAME       WAC                 TYPE LVL STD REC CLM  PREV DUE  INTERVAL
+                                           LIFE SINCE NEW      INIT TYPE, INSTANCE             INIT LCN, ALC
+                                                               ADMIN  CAPABILITY CODE
+=====================  ======================================= =======================================================  ==========
+A27-10                 HAWK 127                        ~K0610  S46                             ELPDY                    AE
+A                  00  HAWK 127            0000                SM        Y   R   N                 28.0
+                                             4094.4   AFHR     ROLECHG    AAR
+ 
+                                                               S58                             AFHR        125.0        AE
+                                                               SM        Y   R   N                125.0
+                                                               CMPL       R40                  A                  00
+ 
+                                                               S58                             AFHR        125.0        AE
+                                                               SM        Y   R   N                125.0
+                                                               INS                             A0S                00
+ 
+                                                               S62A                                                     AE
+                                                               SM   DM   Y   R   N                                      AV
+                                                               STRT       TA                   A3EAG              00
+ 
+                                                               S62B                                                     AE
+                                                               SM   DM   Y   R   N                                      AV
+                                                               STRT       TA                   A1WAG              00
+ 
+                                                               STI-HAWK A27-0498                                        AN
+                                                               STI       Y   R   N
+                                                               STRT       R40
+ 
+                                                               STI-HAWK A27-0498                                        AN
+                                                               STI       Y   R   N
+                                                               STRT       R50
+ 
+                                                               STI-HAWK A27-0539                                        AN
+                                                               STI       Y   N   N
+                                                               REM                             A1C                00
+ 
+                                                               STI-HAWK A27-0539                                        AN
+                                                               STI       Y   N   N
+                                                               STRT       R50                  A                  00
+ 
+                                                               STI-HAWK A27-0539                                        AN
+                                                               STI       Y   N   N
+                                                               STRT       R40                  A                  00
+ 
+SAAB-41H-4200866       KB554L0175-000                  ~K0610  STI-HAWK A27-0546B                                       AN
+A0S00              00  RUDDER              3000                STI       Y   N   N
+                                             4046.2   AFHR     STRT       R40                  A                  00
+ 
+
+ 
+                                                         OFFICIAL:Sensitive                                                         OFFICIAL:Sensitive
+RUN ID: MAINFORE                                                CAMM2                                                     PAGE 00008
+RUN BY: bae24167                                   MAINTENANCE FORECAST & PLANNING                                           22JAN23
+PROGRM: MAINFORE                                                                                                            13:18:56
+
+
+TAIL/SERIAL NO.        PART                                    MAINT ACTIVITY        DATE DUE  LIFE TYPE INT REM        TSS CODES
+LCN,ALC                POSITION NAME       WAC                 TYPE LVL STD REC CLM  PREV DUE  INTERVAL
+                                           LIFE SINCE NEW      INIT TYPE, INSTANCE             INIT LCN, ALC
+                                                               ADMIN  CAPABILITY CODE
+=====================  ======================================= =======================================================  ==========
+SAAB-41H-4200866       KB554L0175-000                  ~K0610  STI-HAWK A27-0546B                                       AN
+A0S00              00  RUDDER              3000                STI       Y   N   N
+                                             4046.2   AFHR     STRT       R50                  A                  00
+ 
+HDH-41H-4230766        KB01RL2090-018                  ~K0610  DEVI-HAWK A27-1378A                                      AN
+A0W                00  TAILPLANE           3000                DVI       Y   R   N
+                                             4094.4   AFHR     STRT       R40                  A                  00
+ 
+                                                               DEVI-HAWK A27-1378A                                      AN
+                                                               DVI       Y   R   N
+                                                               STRT       R50                  A                  00
+ 
+                                                               DEVI-HAWK A27-1457A                                      AN
+                                                               DVI       Y   R   N
+                                                               STRT       R40                  A                  00
+ 
+H1065                  10141                           ~K0100  STI-HAWK A27-0553                                        AN
+A20                00  GAUGE ACCUM EMERG   2630                STI       Y   R   N
+                                             4094.4   AFHR     STRT       R50                  A                  00
+ 
+                                                               STI-HAWK A27-0553               AFHR          0.0        AN
+                                                               STI       Y   R   N                  0.0
+                                                               REM
+ 
+H967                   10141                           ~K0100  STI-HAWK A27-0553                                        AN
+A24                00  GAUGE PRESS ACCUM 1 670A                STI       Y   R   N
+                                             3529.2   AFHR     STRT       R50                  A                  00
+ 
+                                                               STI-HAWK A27-0553               AFHR          0.0        AN
+                                                               STI       Y   R   N                  0.0
+                                                               REM
+ 
+H1030                  10141                           ~K0100  STI-HAWK A27-0553                                        AN
+A2Q                00  GAUGE FLAP EMER NIT 570F                STI       Y   R   N
+                                             3169.1   AFHR     STRT       R50                  A                  00
+ 
+                                                               STI-HAWK A27-0553               AFHR          0.0        AN
+                                                               STI       Y   R   N                  0.0
+                                                               REM
+ 
+H984                   10141                           ~K0100  STI-HAWK A27-0553                                        AN
+A52                00  GAUGE EMERG U/C NIT 570C                STI       Y   R   N
+                                             3257.1   AFHR     STRT       R50                  A                  00
+ 
+
+ 
+                                                         OFFICIAL:Sensitive                                                         OFFICIAL:Sensitive
+RUN ID: MAINFORE                                                CAMM2                                                     PAGE 00009
+RUN BY: bae24167                                   MAINTENANCE FORECAST & PLANNING                                           22JAN23
+PROGRM: MAINFORE                                                                                                            13:18:56
+
+
+TAIL/SERIAL NO.        PART                                    MAINT ACTIVITY        DATE DUE  LIFE TYPE INT REM        TSS CODES
+LCN,ALC                POSITION NAME       WAC                 TYPE LVL STD REC CLM  PREV DUE  INTERVAL
+                                           LIFE SINCE NEW      INIT TYPE, INSTANCE             INIT LCN, ALC
+                                                               ADMIN  CAPABILITY CODE
+=====================  ======================================= =======================================================  ==========
+H984                   10141                           ~K0100  STI-HAWK A27-0553               AFHR          0.0        AN
+A52                00  GAUGE EMERG U/C NIT 570C                STI       Y   R   N                  0.0
+                                             3257.1   AFHR     REM
+ 
+FPT355700              KB280K0011-008                  ~K0610  MS13                                                     AE
+ALS                00  TANK FUSELAGE BAG   2700                SM        Y   R   N
+                                             1283.6   AFHR     REM                             ALS                00
+ 
+-- SPECIAL MAINTENANCE REQUIREMENTS ----------------------------------------------------------------------------------------------
+A27-10                 HAWK 127                        ~K0610  79SQNU2212537
+A                  00  HAWK 127            0000                SMR           R   N
+                                             4094.4   AFHR     STRT       T/A
+                                                               N
+                                                               SYMPTOMS: PANEL 121A FASTENER ON LHS (PAINTED RED) X1 CHECK FOR
+                                                                         RETAINMENT IN PANEL. FASTENER DOES NOT TORQUE DOWN DUE
+                                                                         U/S RECEPTACLE.
+ 
+                                                               79SQNU2212841
+                                                               SMR           R   N
+                                                               STRT       A/F
+                                                               N
+                                                               SYMPTOMS: PANEL 121A FASTENER ON LHS (PAINTED RED) X1 CHECK FOR
+                                                                         RETAINMENT IN PANEL. FASTENER DOES NOT TORQUE DOWN DUE
+                                                                         U/S RECEPTACLE.
+ 
+                                                               BAEPEU1800640                   AFHR        335.6
+                                                               SMR           N   N               1000.0
+ 
+                                                               N
+                                                               SYMPTOMS: NCRD AMOPEA-001-18 INCORPORATES A TEMPORARY REPAIR TO THE
+                                                                         STARBOARD TOP LONGERON KB537L4270-002 IN WAY OF THE
+                                                                         CANOPY TORQUE SHAFT MOUNTING HOLES FOR 1000 AFHR.
+                                                                         AT OR BEFORE 4,430.0 AFHR  A NEW NCRD MUST BE RAISED
+                                                                         REQUESTING FURTHER REPAIR/MODIFICATION ADVICE FROM
+                                                                         LIFLMO.
+ 
+                                                                         bae11952     31MAY18     02:39:43
+                                                                         REFER: A27-10P501-18. WO:1283315
+ 
+-- JOBS IN PROGRESS --------------------------------------------------------------------------------------------------------------
+A27-10                 HAWK 127                        ~K0610  IN10                                                     NONE
+A                  00  HAWK 127            0000                SM        Y   R   N
+                                             4094.4   AFHR     STRT       RM10                 A                  00
+ 
+
+ 
+                                                         OFFICIAL:Sensitive                                                         OFFICIAL:Sensitive
+RUN ID: MAINFORE                                                CAMM2                                                     PAGE 00010
+RUN BY: bae24167                                   MAINTENANCE FORECAST & PLANNING                                           22JAN23
+PROGRM: MAINFORE                                                                                                            13:18:56
+
+
+TAIL/SERIAL NO.        PART                                    MAINT ACTIVITY        DATE DUE  LIFE TYPE INT REM        TSS CODES
+LCN,ALC                POSITION NAME       WAC                 TYPE LVL STD REC CLM  PREV DUE  INTERVAL
+                                           LIFE SINCE NEW      INIT TYPE, INSTANCE             INIT LCN, ALC
+                                                               ADMIN  CAPABILITY CODE
+=====================  ======================================= =======================================================  ==========
+A27-10                 HAWK 127                        ~K0610  IN10                                                     NONE
+A                  00  HAWK 127            0000                SM        Y   R   N
+                                             4094.4   AFHR     STRT       TA                   AK5                00
+ 
+                                                               IN8                                                      NONE
+                                                               SM        Y   R   N
+                                                               STRT       R40                  A                  00
+ 
+                                                               IN8                                                      NONE
+                                                               SM        Y   R   N
+                                                               STRT       RM8                  A                  00
+ 
+                                                               IN8                                                      NONE
+                                                               SM        Y   R   N
+                                                               STRT       R50                  A                  00
+ 
+                                                               IN8                                                      NONE
+                                                               SM        Y   R   N
+                                                               STRT       TA                   AK5                00
+ 
+                                                               IN9                                                      NONE
+                                                               SM        Y   R   N
+                                                               STRT       R40                  A                  00
+ 
+                                                               IN9                                                      NONE
+                                                               SM        Y   R   N
+                                                               STRT       RM9                  A                  00
+ 
+                                                               IN9                                                      NONE
+                                                               SM        Y   R   N
+                                                               STRT       TA                   AK5                00
+ 
+                                                               IN9                                                      NONE
+                                                               SM        Y   R   N
+                                                               STRT       R50                  A                  00
+ 
+                                                               R20                             AFHR        161.0        NONE
+                                                               SM        Y   R   N                400.0
+ 
+ 
+                                                               R20                   16MAR2023 ELPYR        53.0        NONE
+                                                               SM        Y   R   N                  2.0
+ 
+ 
+
+ 
+                                                         OFFICIAL:Sensitive                                                         OFFICIAL:Sensitive
+RUN ID: MAINFORE                                                CAMM2                                                     PAGE 00011
+RUN BY: bae24167                                   MAINTENANCE FORECAST & PLANNING                                           22JAN23
+PROGRM: MAINFORE                                                                                                            13:18:56
+
+
+TAIL/SERIAL NO.        PART                                    MAINT ACTIVITY        DATE DUE  LIFE TYPE INT REM        TSS CODES
+LCN,ALC                POSITION NAME       WAC                 TYPE LVL STD REC CLM  PREV DUE  INTERVAL
+                                           LIFE SINCE NEW      INIT TYPE, INSTANCE             INIT LCN, ALC
+                                                               ADMIN  CAPABILITY CODE
+=====================  ======================================= =======================================================  ==========
+A27-10                 HAWK 127                        ~K0610  S14                                                      NONE
+A                  00  HAWK 127            0000                SM        Y   R   N
+                                             4094.4   AFHR     STRT       R40                  A                  00
+ 
+                                                               S14                                                      NONE
+                                                               SM        Y   R   N
+                                                               STRT       R20                  A                  00
+ 
+                                                               S14                                                      NONE
+                                                               SM        Y   R   N
+                                                               STRT       R10                  A                  00
+ 
+                                                               S14                                                      NONE
+                                                               SM        Y   R   N
+                                                               STRT       R50                  A                  00
+ 
+                                                               S14                   24DEC2022 ELPDY        29.0-       NONE
+                                                               SM        Y   R   N                 30.0
+ 
+ 
+                                                               S20                             ENST         20.0        NONE
+                                                               SM        Y   R   N                 20.0
+ 
+ 
+                                                               S20                             FLT          20.0        NONE
+                                                               SM        Y   R   N                 20.0
+ 
+ 
+                                                               S31                   19DEC2022 ELPDY        34.0-       NONE
+                                                               SM        Y   R   N                  7.0
+ 
+ 
+                                                               S36                   09FEB2023 ELPYR        18.0        AV
+                                                               SM        Y   R   N                  1.0
+ 
+ 
+                                                               S45                             AFHR         20.0        NONE
+                                                               SM        Y   R   N                 25.0
+ 
+ 
+                                                               S55                   20DEC2022 ELPDY        33.0-       AV
+                                                               SM        Y   R   N                  7.0
+ 
+ 
+
+ 
+                                                         OFFICIAL:Sensitive                                                         OFFICIAL:Sensitive
+RUN ID: MAINFORE                                                CAMM2                                                     PAGE 00012
+RUN BY: bae24167                                   MAINTENANCE FORECAST & PLANNING                                           22JAN23
+PROGRM: MAINFORE                                                                                                            13:18:56
+
+
+TAIL/SERIAL NO.        PART                                    MAINT ACTIVITY        DATE DUE  LIFE TYPE INT REM        TSS CODES
+LCN,ALC                POSITION NAME       WAC                 TYPE LVL STD REC CLM  PREV DUE  INTERVAL
+                                           LIFE SINCE NEW      INIT TYPE, INSTANCE             INIT LCN, ALC
+                                                               ADMIN  CAPABILITY CODE
+=====================  ======================================= =======================================================  ==========
+A27-10                 HAWK 127                        ~K0610  S59                             ELPDY                    AN
+A                  00  HAWK 127            0000                SM        Y   R   N                 15.0
+                                             4094.4   AFHR     CMPL       S14
+ 
+                                                               S60                   28DEC2022 ELPDY        25.0-       AV
+                                                               SM        Y   R   N                 14.0
+                                                               CMPL       A/F                  A                  00
+ 
+                                                               S61                   06FEB2023 ELPDY        15.0        AV
+                                                               SM        Y   R   N                180.0
+ 
+ 
+                                                               S66                             AFHR          0.0        AE
+                                                               SM        Y   R   N                  0.0
+                                                               REM                             AEI                00
+ 
+                                                               S67                             AFHR         49.0        AV
+                                                               SM        Y   R   N                 50.0
+ 
+ 
+                                                               STI-HAWK A27-0471                                        AN
+                                                               STI       Y   R   N
+                                                               STRT       R50
+ 
+                                                               STI-HAWK A27-0471                                        AN
+                                                               STI       Y   R   N
+                                                               STRT       R40
+ 
+                                                               STI-HAWK A27-0471                                        AN
+                                                               STI       Y   R   N
+                                                               STRT       R20
+ 
+                                                               STI-HAWK A27-0471                                        AN
+                                                               STI       Y   R   N
+                                                               STRT       R10
+ 
+                                                               STI-HAWK A27-0558                                        AN
+                                                               STI       Y   N   N
+                                                               STRT       R10
+ 
+                                                               STI-HAWK A27-0558                                        AN
+                                                               STI       Y   N   N
+                                                               STRT       R20
+ 
+
+ 
+                                                         OFFICIAL:Sensitive                                                         OFFICIAL:Sensitive
+RUN ID: MAINFORE                                                CAMM2                                                     PAGE 00013
+RUN BY: bae24167                                   MAINTENANCE FORECAST & PLANNING                                           22JAN23
+PROGRM: MAINFORE                                                                                                            13:18:56
+
+
+TAIL/SERIAL NO.        PART                                    MAINT ACTIVITY        DATE DUE  LIFE TYPE INT REM        TSS CODES
+LCN,ALC                POSITION NAME       WAC                 TYPE LVL STD REC CLM  PREV DUE  INTERVAL
+                                           LIFE SINCE NEW      INIT TYPE, INSTANCE             INIT LCN, ALC
+                                                               ADMIN  CAPABILITY CODE
+=====================  ======================================= =======================================================  ==========
+A27-10                 HAWK 127                        ~K0610  STI-HAWK A27-0558                                        AN
+A                  00  HAWK 127            0000                STI       Y   N   N
+                                             4094.4   AFHR     STRT       R50
+ 
+                                                               STI-HAWK A27-0558                                        AN
+                                                               STI       Y   N   N
+                                                               STRT       R40
+ 
+                                                               STI-HAWK A27-0559                                        AN
+                                                               STI       Y   N   N
+                                                               STRT       RM1
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+                                                         OFFICIAL:Sensitive                                                         OFFICIAL:Sensitive
+RUN ID: MAINFORE                                                CAMM2                                                     PAGE 00014
+RUN BY: bae24167                                   MAINTENANCE FORECAST & PLANNING                                           22JAN23
+PROGRM: MAINFORE                                                                                                            13:18:56
+
+
+TAIL/SERIAL NO.        PART                                    MAINT ACTIVITY                  INTERVAL  LIFE TYPE
+LCN/ALC                POSITION NAME       WAC                 INIT TYPE, INST
+                                           LIFE SINCE NEW
+=====================  ======================================= =======================================================  ==========
+-- MAINT ACTIVITIES COINCIDENT WITH OPSERVS --------------------------------------------------------------------------------------
+A27-10                 HAWK 127                        ~K0610  SMR 79SQNU2212841
+A                  00  HAWK 127            0000                STRT       A/F
+                                             4094.4   AFHR
+ 
+                                                               S60                                 14.0  ELPDY
+                                                               CMPL       A/F
+ 
+ 
+                                                               S60                                 14.0  ELPDY
+                                                               CMPL       A/F2
+ 
+ 
+                                                               SMR 79SQNU2212537
+                                                               STRT       T/A
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+                                                         OFFICIAL:Sensitive                                                         OFFICIAL:Sensitive
+RUN ID: MAINFORE                                                CAMM2                                                     PAGE 00015
+RUN BY: bae24167                                   MAINTENANCE FORECAST & PLANNING                                           22JAN23
+PROGRM: MAINFORE                                                                                                            13:18:56
+
+
+ VENUE         : BAEPEA                                                        PART NUMBER  : HAWK 127                        ~K0610
+ FORECAST CODE : LIF 90 DAYS  LIF 90 Day Forecast                              SERIAL NUMBER: A27-28
+ PERIOD TO     : 22APR23                                                       EIAC,LCN,ALC : A27     A                   00
+ LIFE SINCE NEW:    LIFE        LIFE TYPE        INTERVAL                      ENG NAME     : HAWK 127
+                  4033.4        AFHR                100.0                                     A27-28
+                   575.0        APUHR                25.0
+                  5295.0        APUST               100.0
+                  4033.4        ENHR                100.0
+                  4485.0        ENST                 90.0
+                  3521.0        FLT                  90.0
+                  5704.0        LDG                 180.0
+                  4481.0        START                90.0
+ 
+TAIL/SERIAL NO.        PART                                    DEVIATION ORDER                   STD              EXPIRED
+LCN,ALC                POSITION NAME       WAC                 TITLE
+                                           LIFE SINCE NEW      EXPIRY CONDITIONS
+=====================  ======================================= ===================================================================
+-- DEVIATIONS --------------------------------------------------------------------------------------------------------------------
+A27-28                 HAWK 127                        ~K0610  DEV-HAWK A27-1334                  Y                  N
+A                  00  HAWK 127            0000                REPEAT INSPECTION OF CRACKED FRAME 27 LANDINGS
+                                             4033.4   AFHR
+                                                               *** NO EXPIRY CONDITIONS ***
+ 
+                                                               DEV-HAWK A27-1350                  Y                  N
+                                                               FRAME 12 BULKHEAD AND TOP LONGERON DAMAGE
+ 
+                                                               *** NO EXPIRY CONDITIONS ***
+ 
+                                                               DEV-HAWK A27-1406                  Y                  N
+                                                               INSPECTION OF ENGINE INTAKE PLUGGED RIVET
+ 
+                                                               *** NO EXPIRY CONDITIONS ***
+ 
+                                                               DEV-HAWK A27-1410                  Y                  N
+                                                               AIR INTAKE - REPLACED RIVET
+ 
+                                                               *** NO EXPIRY CONDITIONS ***
+ 
+                                                               DEV-HAWK A27-1639                  Y                  N
+                                                               STRAIN GAUGE 21 - ISOLATION AND REMOVAL FROM USAGE AIRCRAFT
+ 
+                                                               *** NO EXPIRY CONDITIONS ***
+ 
+
+
+
+
+
+
+
+ 
+                                                         OFFICIAL:Sensitive                                                         OFFICIAL:Sensitive
+RUN ID: MAINFORE                                                CAMM2                                                     PAGE 00016
+RUN BY: bae24167                                   MAINTENANCE FORECAST & PLANNING                                           22JAN23
+PROGRM: MAINFORE                                                                                                            13:18:56
+
+
+TAIL/SERIAL NO.        PART                                    DEVIATION ORDER                   STD              EXPIRED
+LCN,ALC                POSITION NAME       WAC                 TITLE
+                                           LIFE SINCE NEW      EXPIRY CONDITIONS
+=====================  ======================================= ===================================================================
+FLR-41H-4050806        KB536K0025-134                  ~K0610  DEV-HAWK A27-1333                  Y                  N
+A0M                00  CANOPY              2300                CANOPY FRAME COUNTERBORES
+                                             2423.3   AFHR
+                                                               *** NO EXPIRY CONDITIONS ***
+ 
+B3-41H-4080744         KB576L0070-000                  ~K0610  DEV-HAWK A27-1524                  Y                  N
+A0QAS              00  AILERON LH          5500                STATIC DISCHARGER IN L/H AILERON B3-41H-4080744
+                                             4249.1   AFHR
+                                                               *** NO EXPIRY CONDITIONS ***
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+                                                         OFFICIAL:Sensitive                                                         OFFICIAL:Sensitive
+RUN ID: MAINFORE                                                CAMM2                                                     PAGE 00017
+RUN BY: bae24167                                   MAINTENANCE FORECAST & PLANNING                                           22JAN23
+PROGRM: MAINFORE                                                                                                            13:18:56
+
+
+TAIL/SERIAL NO.        PART                                    MAINT ACTIVITY        DATE DUE  LIFE TYPE INT REM        TSS CODES
+LCN,ALC                POSITION NAME       WAC                 TYPE LVL STD REC CLM  PREV DUE  INTERVAL
+                                           LIFE SINCE NEW      INIT TYPE, INSTANCE             INIT LCN, ALC
+                                                               ADMIN  CAPABILITY CODE
+=====================  ======================================= =======================================================  ==========
+-- OVERDUE MAINTENANCE -----------------------------------------------------------------------------------------------------------
+A27-28                 HAWK 127                        ~K0610  R10                   17NOV2022 ELPYR        66.0-       NONE
+A                  00  HAWK 127            0000                SM        Y   R   Y                  1.0
+                                             4033.4   AFHR
+ 
+                                                               R20                   12NOV2022 ELPYR        71.0-       NONE
+                                                               SM        Y   R   Y                  2.0
+ 
+ 
+-- FORECAST ACTIVITIES -----------------------------------------------------------------------------------------------------------
+A27-28                 HAWK 127                        ~K0610  R10                             AFHR         66.5        NONE
+A                  00  HAWK 127            0000                SM        Y   R   Y                200.0
+                                             4033.4   AFHR
+ 
+                                                               R20                             AFHR         67.3        NONE
+                                                               SM        Y   R   Y                400.0
+ 
+ 
+                                                               S1                              XCESSG        1.0        NONE
+                                                               SM        Y   R   N                  1.0
+ 
+ 
+                                                               S13                             ENOTMP        1.0        AE
+                                                               SM        Y   R   N                  1.0
+ 
+ 
+                                                               S2                              ISOOPS        1.0        NONE
+                                                               SM        Y   R   N                  1.0
+ 
+ 
+                                                               S20                             ENST         20.0        NONE
+                                                               SM        Y   R   N                 20.0
+ 
+ 
+                                                               S20                             FLT          20.0        NONE
+                                                               SM        Y   R   N                 20.0
+ 
+ 
+                                                               S3                              OSPLDG        1.0        NONE
+                                                               SM        Y   R   N                  1.0
+ 
+ 
+                                                               S36                   06OCT2023 ELPYR       257.0        AV
+                                                               SM        Y   R   N                  1.0
+ 
+  
+                                                         OFFICIAL:Sensitive                                                         OFFICIAL:Sensitive
+RUN ID: MAINFORE                                                CAMM2                                                     PAGE 00018
+RUN BY: bae24167                                   MAINTENANCE FORECAST & PLANNING                                           22JAN23
+PROGRM: MAINFORE                                                                                                            13:18:56
+
+
+TAIL/SERIAL NO.        PART                                    MAINT ACTIVITY        DATE DUE  LIFE TYPE INT REM        TSS CODES
+LCN,ALC                POSITION NAME       WAC                 TYPE LVL STD REC CLM  PREV DUE  INTERVAL
+                                           LIFE SINCE NEW      INIT TYPE, INSTANCE             INIT LCN, ALC
+                                                               ADMIN  CAPABILITY CODE
+=====================  ======================================= =======================================================  ==========
+A27-28                 HAWK 127                        ~K0610  S4                              LTSTRK        1.0        NONE
+A                  00  HAWK 127            0000                SM        Y   R   N                  1.0
+                                             4033.4   AFHR
+ 
+                                                               S5                              HEVLDG        1.0        NONE
+                                                               SM        Y   R   N                  1.0
+ 
+ 
+                                                               S56                             BEFOPS        1.0        AV
+                                                               SM        Y   R   N                  1.0
+ 
+ 
+                                                               S57                             AFHR       2617.8        AE
+                                                               SM        Y   R   N               3200.0
+ 
+ 
+                                                               S57                   06SEP2035 ELPYR      4610.0        AE
+                                                               SM        Y   R   N                 16.0
+ 
+ 
+                                                               S6                              FLPOSP        1.0        NONE
+                                                               SM        Y   R   N                  1.0
+ 
+ 
+                                                               S61                   04APR2023 ELPDY        72.0        AV
+                                                               SM        Y   R   N                180.0
+ 
+ 
+                                                               S62A                            AFHR        700.9        AE
+                                                               SM   DM   Y   R   N               1000.0                 AV
+ 
+ 
+                                                               S62B                            AFHR        700.9        AE
+                                                               SM   DM   Y   R   N               1000.0                 AV
+ 
+ 
+                                                               S65                   14MAR2023 ELPYR        51.0        AN
+                                                               SM        Y   R   N                  1.0
+ 
+ 
+                                                               S67                             AFHR         50.0        AV
+                                                               SM        Y   R   N                 50.0
+ 
+ 
+
+ 
+                                                         OFFICIAL:Sensitive                                                         OFFICIAL:Sensitive
+RUN ID: MAINFORE                                                CAMM2                                                     PAGE 00019
+RUN BY: bae24167                                   MAINTENANCE FORECAST & PLANNING                                           22JAN23
+PROGRM: MAINFORE                                                                                                            13:18:56
+
+
+TAIL/SERIAL NO.        PART                                    MAINT ACTIVITY        DATE DUE  LIFE TYPE INT REM        TSS CODES
+LCN,ALC                POSITION NAME       WAC                 TYPE LVL STD REC CLM  PREV DUE  INTERVAL
+                                           LIFE SINCE NEW      INIT TYPE, INSTANCE             INIT LCN, ALC
+                                                               ADMIN  CAPABILITY CODE
+=====================  ======================================= =======================================================  ==========
+A27-28                 HAWK 127                        ~K0610  TA                              AFHR       5966.6        AE
+A                  00  HAWK 127            0000                SM        Y   N   N              10000.0
+                                             4033.4   AFHR
+ 
+TD25                   KB536K0260-028                  ~K0610  BS                    18JUN2023 ELPYR       147.0        AE
+A0MAM              00  HOUSING TWIN DET F  230F                SM        Y   R   N                  2.0
+                                            52377.8   AFHR
+ 
+                                                               TA                              FIRING        1.0        AE
+                                                               SM        Y   N   N                  1.0
+ 
+ 
+TD26                   KB536K0260-028                  ~K0610  BS                    18JUN2023 ELPYR       147.0        AE
+A0MAR              00  HOUSING TWIN DET R  230A                SM        Y   R   N                  2.0
+                                            52377.8   AFHR
+ 
+                                                               TA                              FIRING        1.0        AE
+                                                               SM        Y   N   N                  1.0
+ 
+ 
+FRTR460BA              3515000-242                     ~U1918  TA                              AFHR       2052.2        AV
+A0QHN              00  FLOAT SW LOW LEVEL  6100                SM        Y   N   N               6000.0
+                                             3947.8   AFHR
+ 
+AT9651                 8C(2)                           ~K1536  BS                    20APR2023 ELPYR        88.0        NONE
+A0QHT              00  SWITCH INERTIA RH   6700                SM        Y   R   N                  1.0
+                                             2305.2   AFHR
+ 
+                                                               OH                    22MAR2028 ELPYR      1886.0        AV
+                                                               SM        Y   R   N                  7.0
+ 
+ 
+                                                               OH                    20JAN2025 INSYR       729.0        AV
+                                                               SM        Y   R   N                  3.0
+ 
+ 
+MZ307                  KB290K0084-020                  ~K0610  BS                              FIRING        1.0        AEFTWSP
+A1W                00  VLV EXPL START FLAP 2610                SM        Y   R   N                  1.0
+                                             3377.4   AFHR
+ 
+                                                               TA                              FIRING       40.0        AEFTWSP
+                                                               SM        Y   N   N                 50.0
+ 
+ 
+
+ 
+                                                         OFFICIAL:Sensitive                                                         OFFICIAL:Sensitive
+RUN ID: MAINFORE                                                CAMM2                                                     PAGE 00020
+RUN BY: bae24167                                   MAINTENANCE FORECAST & PLANNING                                           22JAN23
+PROGRM: MAINFORE                                                                                                            13:18:56
+
+
+TAIL/SERIAL NO.        PART                                    MAINT ACTIVITY        DATE DUE  LIFE TYPE INT REM        TSS CODES
+LCN,ALC                POSITION NAME       WAC                 TYPE LVL STD REC CLM  PREV DUE  INTERVAL
+                                           LIFE SINCE NEW      INIT TYPE, INSTANCE             INIT LCN, ALC
+                                                               ADMIN  CAPABILITY CODE
+=====================  ======================================= =======================================================  ==========
+WF2100118              PAF205-002                      ~U1585  TA                    31OCT2023 DOMYR       282.0        AEFTWSP
+A1WAG              00  PILLAR FRANGIBLE    2610                SM        Y   N   N                  7.0
+                                              299.1   AFHR
+ 
+                                                               TA                              FIRING        1.0        AEFTWSP
+                                                               SM        Y   N   N                  1.0
+ 
+ 
+                                                               TA                    02MAR2025 INSYR       770.0        AEFTWSP
+                                                               SM        Y   N   N                  4.0
+ 
+ 
+H1178                  10141                           ~K0100  TA                              AFHR       2412.3        AV
+A20                00  GAUGE ACCUM EMERG   2630                SM        Y   N   N               6000.0
+                                             3587.7   AFHR
+ 
+H706                   10141                           ~K0100  TA                              AFHR       4348.9        AV
+A22                00  GAUGE PRESS ACCUM 2 570A                SM        Y   N   N               6000.0
+                                             1651.1   AFHR
+ 
+H846                   10141                           ~K0100  TA                              AFHR       3241.5        AV
+A24                00  GAUGE PRESS ACCUM 1 670A                SM        Y   N   N               6000.0
+                                             2758.5   AFHR
+ 
+H1195                  10141                           ~K0100  TA                              AFHR       2210.6        AV
+A2Q                00  GAUGE FLAP EMER NIT 570F                SM        Y   N   N               6000.0
+                                             3789.4   AFHR
+ 
+MZ489                  KB290K0084-020                  ~K0610  BS                              FIRING        1.0        AEFTWSP
+A3E                00  VLV EXPL START U/C  1150                SM        Y   R   N                  1.0
+                                            53018.5   AFHR
+ 
+                                                               TA                              FIRING       43.0        AEFTWSP
+                                                               SM        Y   N   N                 50.0
+ 
+ 
+WF2100120              PAF205-002                      ~U1585  TA                    29JUN2024 DOMYR       524.0        AEFTWSP
+A3EAG              00  PILLAR FRANGIBLE    1150                SM        Y   N   N                  7.0
+                                              299.1   AFHR
+ 
+                                                               TA                              FIRING        1.0        AEFTWSP
+                                                               SM        Y   N   N                  1.0
+ 
+ 
+
+ 
+                                                         OFFICIAL:Sensitive                                                         OFFICIAL:Sensitive
+RUN ID: MAINFORE                                                CAMM2                                                     PAGE 00021
+RUN BY: bae24167                                   MAINTENANCE FORECAST & PLANNING                                           22JAN23
+PROGRM: MAINFORE                                                                                                            13:18:56
+
+
+TAIL/SERIAL NO.        PART                                    MAINT ACTIVITY        DATE DUE  LIFE TYPE INT REM        TSS CODES
+LCN,ALC                POSITION NAME       WAC                 TYPE LVL STD REC CLM  PREV DUE  INTERVAL
+                                           LIFE SINCE NEW      INIT TYPE, INSTANCE             INIT LCN, ALC
+                                                               ADMIN  CAPABILITY CODE
+=====================  ======================================= =======================================================  ==========
+WF2100120              PAF205-002                      ~U1585  TA                    02MAR2025 INSYR       770.0        AEFTWSP
+A3EAG              00  PILLAR FRANGIBLE    1150                SM        Y   N   N                  4.0
+                                              299.1   AFHR
+ 
+H1005                  10141                           ~K0100  TA                              AFHR       2757.3        AV
+A50                00  GAUGE WHL BRK ACCUM 670F                SM        Y   N   N               6000.0
+                                             3242.7   AFHR
+ 
+H952                   10141                           ~K0100  TA                              AFHR       1906.2        AV
+A52                00  GAUGE EMERG U/C NIT 570C                SM        Y   N   N               6000.0
+                                             4093.8   AFHR
+ 
+1043                   1684D000                        ~U1605  MS9                             AFHR        500.0        AE
+AAMAA              00  UNIT COLD AIR       2610                SM        Y   R   N                500.0
+                                             3978.3   AFHR
+ 
+                                                               OH                              AFHR        769.8        AE
+                                                               SM        Y   R   N               1600.0
+ 
+ 
+1108                   12025                           ~F0296  OH                              APUHR      2796.0        AV
+ADE                00  GENERATOR AUX       2630                SM        Y   R   N               3000.0
+                                             3474.5   AFHR
+ 
+                                                               OH                    08JAN2025 INSYR       717.0        AV
+                                                               SM        Y   R   N                  6.0
+ 
+ 
+                                                               TA                              AFHR       2525.5        AV
+                                                               SM        Y   N   N               6000.0
+ 
+ 
+0069                   MBEU116080                      ~U1604  BS                    27NOV2024 ELPYR       675.0        AVFTWSP
+AJW                00  EJECTION SEAT FRONT 201F                SM        Y   R   N                  2.0
+                                             3681.6   AFHR
+ 
+                                                               OH                    29MAR2025 ELPYR       797.0        AVFTWSP
+                                                               SM        Y   R   N                  6.0
+ 
+ 
+                                                               TA                              AFHR       2318.4        AEFTWSP
+                                                               SM        Y   N   N               6000.0
+ 
+ 
+
+ 
+                                                         OFFICIAL:Sensitive                                                         OFFICIAL:Sensitive
+RUN ID: MAINFORE                                                CAMM2                                                     PAGE 00022
+RUN BY: bae24167                                   MAINTENANCE FORECAST & PLANNING                                           22JAN23
+PROGRM: MAINFORE                                                                                                            13:18:56
+
+
+TAIL/SERIAL NO.        PART                                    MAINT ACTIVITY        DATE DUE  LIFE TYPE INT REM        TSS CODES
+LCN,ALC                POSITION NAME       WAC                 TYPE LVL STD REC CLM  PREV DUE  INTERVAL
+                                           LIFE SINCE NEW      INIT TYPE, INSTANCE             INIT LCN, ALC
+                                                               ADMIN  CAPABILITY CODE
+=====================  ======================================= =======================================================  ==========
+1049                   FLU-2A/P                        ~80049  BS                    08DEC2023 ELPYR       320.0        LS
+AJWAY01AA00        00  CO2 CYLINDER-FWD    201F                SM        Y   R   N                  2.0
+                                             3642.9   AFHR
+ 
+                                                               OH                    01SEP2024 ELPYR       588.0        LS
+                                                               SM        Y   R   N                  5.0
+ 
+ 
+0070                   MBEU116081                      ~U1604  BS                    27NOV2024 ELPYR       675.0        AVFTWSP
+AJY                00  EJECTION SEAT REAR  201A                SM        Y   R   N                  2.0
+                                             3550.2   AFHR
+ 
+                                                               OH                    25MAR2025 ELPYR       793.0        AVFTWSP
+                                                               SM        Y   R   N                  6.0
+ 
+ 
+                                                               TA                              AFHR       2449.8        AEFTWSP
+                                                               SM        Y   N   N               6000.0
+ 
+ 
+370                    FLU-2A/P                        ~80049  BS                    06OCT2023 ELPYR       257.0        LS
+AJYAS01AA00        00  CO2 CYLINDER-AFT    201A                SM        Y   R   N                  2.0
+                                             3228.0   AFHR
+ 
+                                                               OH                    13FEB2024 ELPYR       387.0        LS
+                                                               SM        Y   R   N                  5.0
+ 
+ 
+FPT356176              KB280K0011-008                  ~K0610  TA                    23MAR2033 ELPYR      3713.0        AE
+ALS                00  TANK FUSELAGE BAG   2700                SM        Y   N   N                 34.0
+                                             3813.4   AFHR
+ 
+NSN5930                TP30214                         ~U1608  TA                              AFHR       6166.6        AV
+AMY                00  SW FUEL TRANSFER    2610                SM        Y   N   N              10200.0
+                                             4033.4   AFHR
+ 
+788                    TP30215                         ~U1608  TA                              AFHR       6166.6        AV
+ANG                00  SW FUEL PRESSURE    2700                SM        Y   N   N              10200.0
+                                             4033.4   AFHR
+ 
+3882                   8ES002-769-00                   ~D8095  TA                              AFHR       1938.5        AV
+ARS                00  ANTI COL LT UNIT    4110                SM        Y   N   N               6000.0
+                                             4061.5   AFHR
+ 
+
+ 
+                                                         OFFICIAL:Sensitive                                                         OFFICIAL:Sensitive
+RUN ID: MAINFORE                                                CAMM2                                                     PAGE 00023
+RUN BY: bae24167                                   MAINTENANCE FORECAST & PLANNING                                           22JAN23
+PROGRM: MAINFORE                                                                                                            13:18:56
+
+
+TAIL/SERIAL NO.        PART                                    MAINT ACTIVITY        DATE DUE  LIFE TYPE INT REM        TSS CODES
+LCN,ALC                POSITION NAME       WAC                 TYPE LVL STD REC CLM  PREV DUE  INTERVAL
+                                           LIFE SINCE NEW      INIT TYPE, INSTANCE             INIT LCN, ALC
+                                                               ADMIN  CAPABILITY CODE
+=====================  ======================================= =======================================================  ==========
+096                    6120-3K                         ~K0233  TA                              AFHR       7938.5        AV
+AXI                00  PILOT DISPL CAMERA  2200                SM        Y   N   N              12000.0
+                                             4061.5   AFHR
+ 
+-- COINCIDENT MAINTENANCE ACTIVITIES ---------------------------------------------------------------------------------------------
+A27-28                 HAWK 127                        ~K0610  DEVI-HAWK A27-1334A                                      AN
+A                  00  HAWK 127            0000                DVI       Y   R   N
+                                             4033.4   AFHR     STRT       R40
+ 
+                                                               DEVI-HAWK A27-1334A                                      AN
+                                                               DVI       Y   R   N
+                                                               STRT       R30
+ 
+                                                               DEVI-HAWK A27-1334A                                      AN
+                                                               DVI       Y   R   N
+                                                               STRT       R50
+ 
+                                                               DEVI-HAWK A27-1350A                                      AN
+                                                               DVI       Y   R   N
+                                                               STRT       R30
+ 
+                                                               DEVI-HAWK A27-1350A                                      AN
+                                                               DVI       Y   R   N
+                                                               STRT       R50
+ 
+                                                               DEVI-HAWK A27-1350A                                      AN
+                                                               DVI       Y   R   N
+                                                               STRT       R40
+ 
+                                                               DEVI-HAWK A27-1350A                                      AN
+                                                               DVI       Y   R   N
+                                                               STRT       R20
+ 
+                                                               DEVI-HAWK A27-1406A                                      AN
+                                                               DVI       Y   R   N
+                                                               STRT       R40
+ 
+                                                               DEVI-HAWK A27-1406A                                      AN
+                                                               DVI       Y   R   N
+                                                               STRT       R50
+ 
+                                                               DEVI-HAWK A27-1410A                                      AN
+                                                               DVI       Y   R   N
+                                                               STRT       R50
+ 
+ 
+                                                         OFFICIAL:Sensitive                                                         OFFICIAL:Sensitive
+RUN ID: MAINFORE                                                CAMM2                                                     PAGE 00024
+RUN BY: bae24167                                   MAINTENANCE FORECAST & PLANNING                                           22JAN23
+PROGRM: MAINFORE                                                                                                            13:18:56
+
+
+TAIL/SERIAL NO.        PART                                    MAINT ACTIVITY        DATE DUE  LIFE TYPE INT REM        TSS CODES
+LCN,ALC                POSITION NAME       WAC                 TYPE LVL STD REC CLM  PREV DUE  INTERVAL
+                                           LIFE SINCE NEW      INIT TYPE, INSTANCE             INIT LCN, ALC
+                                                               ADMIN  CAPABILITY CODE
+=====================  ======================================= =======================================================  ==========
+A27-28                 HAWK 127                        ~K0610  DEVI-HAWK A27-1410A                                      AN
+A                  00  HAWK 127            0000                DVI       Y   R   N
+                                             4033.4   AFHR     STRT       R40
+ 
+                                                               DEVI-HAWK A27-1639A                                      AN
+                                                               DVI       Y   R   N
+                                                               STRT       R50
+ 
+                                                               IN8                                                      NONE
+                                                               SM        Y   R   N
+                                                               STRT       R50                  A                  00
+ 
+                                                               IN8                                                      NONE
+                                                               SM        Y   R   N
+                                                               STRT       R40                  A                  00
+ 
+                                                               IN8                                                      NONE
+                                                               SM        Y   R   N
+                                                               STRT       R30                  A                  00
+ 
+                                                               IN9                                                      NONE
+                                                               SM        Y   R   N
+                                                               STRT       R50                  A                  00
+ 
+                                                               IN9                                                      NONE
+                                                               SM        Y   R   N
+                                                               STRT       R40                  A                  00
+ 
+                                                               IN9                                                      NONE
+                                                               SM        Y   R   N
+                                                               STRT       R30                  A                  00
+ 
+                                                               R40                             AFHR        800.0        AE
+                                                               SM        N   I+  N                800.0                 AN
+                                                               CMPL       R30                  A                  00    AR
+                                                                                                                        AV,ND
+                                                               R40                             ELPYR                    AE
+                                                               SM        N   I+  N                  4.0                 AN
+                                                               CMPL       R30                  A                  00    AR
+                                                                                                                        AV,ND
+                                                               R50                             AFHR       1600.0        NONE
+                                                               SM        N   I+  N               1600.0
+                                                               CMPL       R40                  A                  00
+ 
+
+ 
+                                                         OFFICIAL:Sensitive                                                         OFFICIAL:Sensitive
+RUN ID: MAINFORE                                                CAMM2                                                     PAGE 00025
+RUN BY: bae24167                                   MAINTENANCE FORECAST & PLANNING                                           22JAN23
+PROGRM: MAINFORE                                                                                                            13:18:56
+
+
+TAIL/SERIAL NO.        PART                                    MAINT ACTIVITY        DATE DUE  LIFE TYPE INT REM        TSS CODES
+LCN,ALC                POSITION NAME       WAC                 TYPE LVL STD REC CLM  PREV DUE  INTERVAL
+                                           LIFE SINCE NEW      INIT TYPE, INSTANCE             INIT LCN, ALC
+                                                               ADMIN  CAPABILITY CODE
+=====================  ======================================= =======================================================  ==========
+A27-28                 HAWK 127                        ~K0610  R50                             ELPYR                    NONE
+A                  00  HAWK 127            0000                SM        N   I+  N                  8.0
+                                             4033.4   AFHR     CMPL       R40                  A                  00
+ 
+                                                               RM8                                                      NONE
+                                                               SM        Y   R   N
+                                                               STRT       R50                  A                  00
+ 
+                                                               RM8                                                      NONE
+                                                               SM        Y   R   N
+                                                               STRT       R40                  A                  00
+ 
+                                                               RM8                                                      NONE
+                                                               SM        Y   R   N
+                                                               STRT       R30                  A                  00
+ 
+                                                               RM9                                                      NONE
+                                                               SM        Y   R   N
+                                                               STRT       R30                  A                  00
+ 
+                                                               RM9                                                      NONE
+                                                               SM        Y   R   N
+                                                               STRT       R50                  A                  00
+ 
+                                                               RM9                                                      NONE
+                                                               SM        Y   R   N
+                                                               STRT       R40                  A                  00
+ 
+                                                               S34                                                      NONE
+                                                               SM        Y   R   N
+                                                               REM                             AKF                01
+ 
+                                                               S34                                                      NONE
+                                                               SM        Y   R   N
+                                                               REM                             AKF                00
+ 
+                                                               S46                             ELPDY                    AE
+                                                               SM        Y   R   N                 28.0
+                                                               ROLECHG    AAR
+ 
+                                                               S58                             AFHR        125.0        AE
+                                                               SM        Y   R   N                125.0
+                                                               CMPL       R40                  A                  00
+ 
+
+ 
+                                                         OFFICIAL:Sensitive                                                         OFFICIAL:Sensitive
+RUN ID: MAINFORE                                                CAMM2                                                     PAGE 00026
+RUN BY: bae24167                                   MAINTENANCE FORECAST & PLANNING                                           22JAN23
+PROGRM: MAINFORE                                                                                                            13:18:56
+
+
+TAIL/SERIAL NO.        PART                                    MAINT ACTIVITY        DATE DUE  LIFE TYPE INT REM        TSS CODES
+LCN,ALC                POSITION NAME       WAC                 TYPE LVL STD REC CLM  PREV DUE  INTERVAL
+                                           LIFE SINCE NEW      INIT TYPE, INSTANCE             INIT LCN, ALC
+                                                               ADMIN  CAPABILITY CODE
+=====================  ======================================= =======================================================  ==========
+A27-28                 HAWK 127                        ~K0610  S58                             AFHR        125.0        AE
+A                  00  HAWK 127            0000                SM        Y   R   N                125.0
+                                             4033.4   AFHR     INS                             A0S                00
+ 
+                                                               S62A                                                     AE
+                                                               SM   DM   Y   R   N                                      AV
+                                                               STRT       TA                   A3EAG              00
+ 
+                                                               S62B                                                     AE
+                                                               SM   DM   Y   R   N                                      AV
+                                                               STRT       TA                   A1WAG              00
+ 
+                                                               STI-HAWK A27-0471                                        AN
+                                                               STI       Y   R   N
+                                                               STRT       R20
+ 
+                                                               STI-HAWK A27-0471                                        AN
+                                                               STI       Y   R   N
+                                                               STRT       R10
+ 
+                                                               STI-HAWK A27-0471                                        AN
+                                                               STI       Y   R   N
+                                                               STRT       R50
+ 
+                                                               STI-HAWK A27-0471                                        AN
+                                                               STI       Y   R   N
+                                                               STRT       R30
+ 
+                                                               STI-HAWK A27-0471                                        AN
+                                                               STI       Y   R   N
+                                                               STRT       R40
+ 
+                                                               STI-HAWK A27-0493B              AFHR          0.0        AV
+                                                               STI       Y   R   N                  0.0
+                                                               REM                             AZK                00
+ 
+                                                               STI-HAWK A27-0498                                        AN
+                                                               STI       Y   R   N
+                                                               STRT       R40
+ 
+                                                               STI-HAWK A27-0498                                        AN
+                                                               STI       Y   R   N
+                                                               STRT       R30
+ 
+
+ 
+                                                         OFFICIAL:Sensitive                                                         OFFICIAL:Sensitive
+RUN ID: MAINFORE                                                CAMM2                                                     PAGE 00027
+RUN BY: bae24167                                   MAINTENANCE FORECAST & PLANNING                                           22JAN23
+PROGRM: MAINFORE                                                                                                            13:18:56
+
+
+TAIL/SERIAL NO.        PART                                    MAINT ACTIVITY        DATE DUE  LIFE TYPE INT REM        TSS CODES
+LCN,ALC                POSITION NAME       WAC                 TYPE LVL STD REC CLM  PREV DUE  INTERVAL
+                                           LIFE SINCE NEW      INIT TYPE, INSTANCE             INIT LCN, ALC
+                                                               ADMIN  CAPABILITY CODE
+=====================  ======================================= =======================================================  ==========
+A27-28                 HAWK 127                        ~K0610  STI-HAWK A27-0498                                        AN
+A                  00  HAWK 127            0000                STI       Y   R   N
+                                             4033.4   AFHR     STRT       R50
+ 
+                                                               STI-HAWK A27-0510A                                       AN
+                                                               STI       Y   N   N
+                                                               STRT       R50
+ 
+H1178                  10141                           ~K0100  STI-HAWK A27-0553                                        AN
+A20                00  GAUGE ACCUM EMERG   2630                STI       Y   R   N
+                                             3587.7   AFHR     STRT       R50                  A                  00
+ 
+                                                               STI-HAWK A27-0553               AFHR          0.0        AN
+                                                               STI       Y   R   N                  0.0
+                                                               REM
+ 
+H706                   10141                           ~K0100  STI-HAWK A27-0553                                        AN
+A22                00  GAUGE PRESS ACCUM 2 570A                STI       Y   R   N
+                                             1651.1   AFHR     STRT       R50                  A                  00
+ 
+                                                               STI-HAWK A27-0553               AFHR          0.0        AN
+                                                               STI       Y   R   N                  0.0
+                                                               REM
+ 
+H846                   10141                           ~K0100  STI-HAWK A27-0553                                        AN
+A24                00  GAUGE PRESS ACCUM 1 670A                STI       Y   R   N
+                                             2758.5   AFHR     STRT       R50                  A                  00
+ 
+                                                               STI-HAWK A27-0553               AFHR          0.0        AN
+                                                               STI       Y   R   N                  0.0
+                                                               REM
+ 
+H1195                  10141                           ~K0100  STI-HAWK A27-0553                                        AN
+A2Q                00  GAUGE FLAP EMER NIT 570F                STI       Y   R   N
+                                             3789.4   AFHR     STRT       R50                  A                  00
+ 
+                                                               STI-HAWK A27-0553               AFHR          0.0        AN
+                                                               STI       Y   R   N                  0.0
+                                                               REM
+ 
+H1005                  10141                           ~K0100  STI-HAWK A27-0553                                        AN
+A50                00  GAUGE WHL BRK ACCUM 670F                STI       Y   R   N
+                                             3242.7   AFHR     STRT       R50                  A                  00
+ 
+
+ 
+                                                         OFFICIAL:Sensitive                                                         OFFICIAL:Sensitive
+RUN ID: MAINFORE                                                CAMM2                                                     PAGE 00028
+RUN BY: bae24167                                   MAINTENANCE FORECAST & PLANNING                                           22JAN23
+PROGRM: MAINFORE                                                                                                            13:18:56
+
+
+TAIL/SERIAL NO.        PART                                    MAINT ACTIVITY        DATE DUE  LIFE TYPE INT REM        TSS CODES
+LCN,ALC                POSITION NAME       WAC                 TYPE LVL STD REC CLM  PREV DUE  INTERVAL
+                                           LIFE SINCE NEW      INIT TYPE, INSTANCE             INIT LCN, ALC
+                                                               ADMIN  CAPABILITY CODE
+=====================  ======================================= =======================================================  ==========
+H1005                  10141                           ~K0100  STI-HAWK A27-0553               AFHR          0.0        AN
+A50                00  GAUGE WHL BRK ACCUM 670F                STI       Y   R   N                  0.0
+                                             3242.7   AFHR     REM
+ 
+H952                   10141                           ~K0100  STI-HAWK A27-0553                                        AN
+A52                00  GAUGE EMERG U/C NIT 570C                STI       Y   R   N
+                                             4093.8   AFHR     STRT       R50                  A                  00
+ 
+                                                               STI-HAWK A27-0553               AFHR          0.0        AN
+                                                               STI       Y   R   N                  0.0
+                                                               REM
+ 
+1043                   1684D000                        ~U1605  MS9                                                      AE
+AAMAA              00  UNIT COLD AIR       2610                SM        Y   R   N
+                                             3978.3   AFHR     STRT       R30                  A                  00
+ 
+                                                               MS9                                                      AE
+                                                               SM        Y   R   N
+                                                               STRT       R20                  A                  00
+ 
+                                                               MS9                                                      AE
+                                                               SM        Y   R   N
+                                                               STRT       R40                  A                  00
+ 
+                                                               MS9                                                      AE
+                                                               SM        Y   R   N
+                                                               STRT       R50                  A                  00
+ 
+                                                               MS9                             AFHR          0.0        AE
+                                                               SM        Y   R   N                  0.0
+                                                               REM                             AAMAA              00
+ 
+FPT356176              KB280K0011-008                  ~K0610  MS13                                                     AE
+ALS                00  TANK FUSELAGE BAG   2700                SM        Y   R   N
+                                             3813.4   AFHR     REM                             ALS                00
+ 
+-- SPECIAL MAINTENANCE REQUIREMENTS ----------------------------------------------------------------------------------------------
+A27-28                 HAWK 127                        ~K0610  79SQNU2210337         25OCT2022 ELPDY        89.0-
+A                  00  HAWK 127            0000                SMR           R   N                  7.0
+ 
+                                                               N
+                                                               SYMPTOMS: UPPER UHF ANTENNA RIVET CRACKING TO BE CHECKED WEEKLY FOR
+                                                                         PROPOGATION PAST WITNES MARKS UNTIL ANTENNA REPLACED, REF
+                                                                         79SQNU2207812.
+
+ 
+                                                         OFFICIAL:Sensitive                                                         OFFICIAL:Sensitive
+RUN ID: MAINFORE                                                CAMM2                                                     PAGE 00029
+RUN BY: bae24167                                   MAINTENANCE FORECAST & PLANNING                                           22JAN23
+PROGRM: MAINFORE                                                                                                            13:18:56
+
+
+TAIL/SERIAL NO.        PART                                    MAINT ACTIVITY        DATE DUE  LIFE TYPE INT REM        TSS CODES
+LCN,ALC                POSITION NAME       WAC                 TYPE LVL STD REC CLM  PREV DUE  INTERVAL
+                                           LIFE SINCE NEW      INIT TYPE, INSTANCE             INIT LCN, ALC
+                                                               ADMIN  CAPABILITY CODE
+=====================  ======================================= =======================================================  ==========
+A27-28                 HAWK 127                        ~K0610  BAEWLU1902577                   AFHR        417.8
+A                  00  HAWK 127            0000                SMR           N   N               1000.0
+                                             4033.4   AFHR
+                                                               N
+                                                               SYMPTOMS: NCRD BAEWLM-044-19 INCORPORATES A TEMPORARY REPAIR TO THE
+                                                                         PORT TOP LONGERON KB537L4304-002 IN WAY OF THE CANOPY
+                                                                         HINGE MOUNTINGS #1 AND #2 FOR 1000 AFHRS. AT OR BEFORE
+                                                                         4451.2 AFHRS A NEW NCRD MUST BE RAISED REQUESTING FURTHER
+                                                                         REPAIR/MODIFICATION ADVICE FROM LIFLMO.
+ 
+-- JOBS IN PROGRESS --------------------------------------------------------------------------------------------------------------
+A27-28                 HAWK 127                        ~K0610  R30                             AFHR         67.3        NONE
+A                  00  HAWK 127            0000                SM   DM   N   I+  N                400.0
+                                             4033.4   AFHR     CMPL       R20                  A                  00
+ 
+                                                               R30                   12NOV2022 ELPYR        71.0-       NONE
+                                                               SM   DM   N   I+  N                  2.0
+                                                               CMPL       R20                  A                  00
+ 
+                                                               S14                                                      NONE
+                                                               SM        Y   R   N
+                                                               STRT       R10                  A                  00
+ 
+                                                               S14                                                      NONE
+                                                               SM        Y   R   N
+                                                               STRT       R20                  A                  00
+ 
+                                                               S14                                                      NONE
+                                                               SM        Y   R   N
+                                                               STRT       R30                  A                  00
+ 
+                                                               S14                                                      NONE
+                                                               SM        Y   R   N
+                                                               STRT       R40                  A                  00
+ 
+                                                               S14                                                      NONE
+                                                               SM        Y   R   N
+                                                               STRT       R50                  A                  00
+ 
+                                                               S14                   20OCT2022 ELPDY        94.0-       NONE
+                                                               SM        Y   R   N                 30.0
+ 
+ 
+                                                               S17                                                      NONE
+                                                               SM        Y   R   N
+                                                               REM                             A0MAY              00
+  
+
+                                                         OFFICIAL:Sensitive                                                         OFFICIAL:Sensitive
+RUN ID: MAINFORE                                                CAMM2                                                     PAGE 00030
+RUN BY: bae24167                                   MAINTENANCE FORECAST & PLANNING                                           22JAN23
+PROGRM: MAINFORE                                                                                                            13:18:56
+
+
+TAIL/SERIAL NO.        PART                                    MAINT ACTIVITY        DATE DUE  LIFE TYPE INT REM        TSS CODES
+LCN,ALC                POSITION NAME       WAC                 TYPE LVL STD REC CLM  PREV DUE  INTERVAL
+                                           LIFE SINCE NEW      INIT TYPE, INSTANCE             INIT LCN, ALC
+                                                               ADMIN  CAPABILITY CODE
+=====================  ======================================= =======================================================  ==========
+A27-28                 HAWK 127                        ~K0610  S17                                                      NONE
+A                  00  HAWK 127            0000                SM        Y   R   N
+                                             4033.4   AFHR     REM                             A0MAX              00
+ 
+                                                               S31                   24OCT2022 ELPDY        90.0-       NONE
+                                                               SM        Y   R   N                  7.0
+ 
+ 
+                                                               S37                   05NOV2022 ELPDY        78.0-       AV
+                                                               SM        Y   R   Y                 30.0
+ 
+ 
+                                                               S45                             AFHR          8.4        NONE
+                                                               SM        Y   R   N                 25.0
+ 
+ 
+                                                               S55                   27OCT2022 ELPDY        87.0-       AV
+                                                               SM        Y   R   N                  7.0
+ 
+ 
+                                                               S59                             ELPDY                    AN
+                                                               SM        Y   R   N                 15.0
+                                                               CMPL       S14
+ 
+                                                               S60                   03NOV2022 ELPDY        80.0-       AV
+                                                               SM        Y   R   N                 14.0
+                                                               CMPL       A/F                  A                  00
+ 
+                                                               S66                             AFHR          0.0        AE
+                                                               SM        Y   R   N                  0.0
+                                                               REM                             AEI                00
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+                                                         OFFICIAL:Sensitive                                                         OFFICIAL:Sensitive
+RUN ID: MAINFORE                                                CAMM2                                                     PAGE 00031
+RUN BY: bae24167                                   MAINTENANCE FORECAST & PLANNING                                           22JAN23
+PROGRM: MAINFORE                                                                                                            13:18:56
+
+
+TAIL/SERIAL NO.        PART                                    MAINT ACTIVITY                  INTERVAL  LIFE TYPE
+LCN/ALC                POSITION NAME       WAC                 INIT TYPE, INST
+                                           LIFE SINCE NEW
+=====================  ======================================= =======================================================  ==========
+-- MAINT ACTIVITIES COINCIDENT WITH OPSERVS --------------------------------------------------------------------------------------
+A27-28                 HAWK 127                        ~K0610  S60                                 14.0  ELPDY
+A                  00  HAWK 127            0000                CMPL       A/F
+                                             4033.4   AFHR
+ 
+                                                               S60                                 14.0  ELPDY
+                                                               CMPL       A/F2
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+                                                         OFFICIAL:Sensitive
+*****************************************************************************
+*****************************************************************************
+******                                                                 ******
+******END OF REPORT                                                    ******
+******                                                                 ******
+*****************************************************************************
+*****************************************************************************
+ÿ
